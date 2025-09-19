@@ -69,9 +69,7 @@ int main() {
     raiz->esquerda = cozinha;
     raiz->direita = biblioteca;
     cozinha->esquerda = despensa;
-    cozinha->direita = raiz;
     biblioteca->direita = salaLeitura;
-    biblioteca->esquerda = raiz;
 
     char opcao;
     Sa* atual = raiz;
